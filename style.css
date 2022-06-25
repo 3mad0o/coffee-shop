@@ -1,0 +1,253 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #131213;
+}
+
+.totop {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  padding: 15px;
+  background-color: #B3541E;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("mainpic.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header nav {
+  height: 10%;
+}
+
+nav .container .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav .container .logo span {
+  color: #B3541E;
+}
+
+nav .container .collapse ul li .firsta {
+  color: #B3541E !important;
+}
+
+nav .container .collapse ul li a {
+  font-size: 20px;
+  margin-left: 30px;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  font-weight: bold;
+}
+
+nav .container .collapse ul li a:hover {
+  background-color: #B3541E;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.home {
+  width: 100%;
+  height: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #131213;
+  opacity: .7;
+  z-index: 1;
+}
+
+.home .content {
+  margin-left: 100px;
+  z-index: 99;
+}
+
+.home .content h3 {
+  position: relative;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.home .content h3:first-child {
+  color: #B3541E;
+}
+
+.home .content button {
+  background-color: #B3541E;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #131213;
+}
+
+.menu .searchandmenu {
+  width: 100%;
+}
+
+.menu .searchandmenu h3 {
+  font-size: 100px;
+  color: #B3541E;
+}
+
+.menu .searchandmenu .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.menu .searchandmenu .search input {
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #B3541E;
+  margin-right: 40px;
+}
+
+.menu .searchandmenu .search button {
+  background-color: #B3541E;
+  color: #fff;
+  height: 50px;
+}
+
+.menu .themenu .container .row .card {
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+.aboutus {
+  background-color: #131213;
+  padding: 100px 0;
+}
+
+.aboutus .text h3 {
+  font-size: 100px;
+  color: #B3541E;
+}
+
+.aboutus .text p {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #131213;
+  padding-bottom: 100px;
+}
+
+.gallery h3 {
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  margin: 100px 0;
+  color: #B3541E;
+}
+
+.gallery .thepic .container-fluid .row img {
+  border-radius: 40px;
+}
+
+.contactus {
+  background-color: #131213;
+  padding: 100px 0;
+}
+
+.contactus .container {
+  margin-top: 100px;
+}
+
+.contactus h3 {
+  width: 100%;
+  text-align: center;
+  color: #B3541E;
+  font-size: 100px;
+}
+
+.contactus .container .row .theframe iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contactus .container .row .theinfo .inf1 {
+  margin-bottom: 30px;
+}
+
+.contactus .container .row .theinfo .inf1 .iconandinfo {
+  margin: 0 50px;
+}
+
+.contactus .container .row .theinfo .inf1 .iconandinfo i {
+  font-size: 50px;
+  color: #B3541E;
+  margin-right: 40px;
+}
+
+.contactus .container .row .theinfo .inf1 .iconandinfo h3 {
+  font-size: 40px;
+  color: #B3541E;
+  text-align: left;
+}
+
+.contactus .container .row .theinfo .inf1 p {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.52);
+  margin: 0 40px;
+}
+/*# sourceMappingURL=style.css.map */

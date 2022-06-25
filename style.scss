@@ -1,0 +1,229 @@
+$maincolor :#B3541E;
+$secondcolor: #131213;
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: $secondcolor;
+
+}
+
+.totop{
+    position:fixed;
+    bottom: 20px;
+    right: 40px;
+    padding: 15px;
+    background-color: $maincolor;
+    border-radius: 5px;
+    cursor: pointer;
+     font-size: 30px;
+     color: #fff;
+     text-align: center;
+}
+.hidden{
+    display:none;
+}
+.header{
+    height: 100vh;
+    background-image: url("mainpic.jpg");
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.header nav{
+    height: 10%;
+}
+nav .container .logo {
+    font-size: 30px;
+    font-weight: bold;
+    
+    span{
+        color:$maincolor ;
+        
+    }
+    
+}
+nav .container .collapse ul li .firsta{
+    color:$maincolor !important;
+    
+}
+nav .container .collapse ul li a{
+    font-size: 20px;
+    margin-left: 30px;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    &:hover{
+        background-color: $maincolor;
+        color: white !important;
+        border-radius: 5px;
+        
+    }
+
+}
+.home{
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    .shadow{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color:$secondcolor;
+        opacity: .7;
+        z-index: 1;
+    }
+    .content{
+        margin-left: 100px;
+        z-index: 99;
+       
+
+    }
+    .content h3{
+       position: relative;
+        font-size: 70px; 
+        font-weight: bolder;
+        color: #fff;
+    }
+    .content h3:first-child{
+        color: $maincolor;
+    }
+    .content button{
+        background-color: $maincolor;
+        font-size: 20px;
+        border: none;
+        color: #fff;
+        width: 150px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#131213;
+    .searchandmenu{
+        width: 100%;
+        h3{
+            font-size: 100px;
+            color: $maincolor;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+
+            input{
+                height: 50px;
+               background-color: transparent;
+               border: none;
+               border-bottom: 1px solid $maincolor;
+               margin-right: 40px;
+
+            }
+            button{
+                background-color: $maincolor;
+                color: #fff;
+                height: 50px;
+                
+            }
+        }
+    }
+    .themenu{
+        .container{
+            .row{
+                .card{
+                    margin-bottom: 30px;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+.aboutus {
+    background-color: $secondcolor;
+    padding: 100px 0;
+    .text{
+        
+        h3{
+            font-size: 100px;
+            color: $maincolor;
+        }
+        p{
+            font-size: 25px;
+            color: rgba(255, 255, 255, 0.671);
+        }
+    }
+}
+.gallery{
+    display:flex;
+    flex-direction: column;
+    background-color:$secondcolor;
+    padding-bottom: 100px;
+    
+    h3{
+        width: 100%;
+        font-size: 100px;
+        text-align: center;
+        margin: 100px 0;
+        color: $maincolor;
+    }
+    .thepic .container-fluid .row img{
+        border-radius: 40px;
+
+    }
+    
+}   
+.contactus{
+    background-color: $secondcolor;
+    padding: 100px 0;
+    .container{
+        margin-top: 100px;
+    }
+    h3{
+        width: 100%;
+        text-align: center;
+        color: $maincolor;
+        font-size: 100px;
+        
+    }
+}
+.contactus .container .row .theframe iframe{
+    width: 100%;
+    height: 100%;
+}
+.contactus .container .row .theinfo {
+    .inf1{
+        margin-bottom: 30px;
+        .iconandinfo{
+            margin:0 50px;
+            i{
+                font-size: 50px;
+                color: $maincolor;
+                margin-right:40px;
+               
+            }
+            h3{
+                font-size: 40px;
+                color: $maincolor;
+                text-align: left;
+
+            }
+        }
+    p{
+        font-size: 30px;
+        color:rgba(255, 255, 255, 0.52);
+        margin:0 40px;
+    }
+
+    }
+}
